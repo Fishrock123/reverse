@@ -13,7 +13,7 @@ fn main() {
 }
 
 
-fn reverse() -> io::Result<i32> {
+fn reverse() -> io::Result<()> {
     // create a String buffer
     let mut input = String::new();
 
@@ -29,5 +29,5 @@ fn reverse() -> io::Result<i32> {
         println!("{}", line);
     }
 
-    Ok(0) // exit the process
+    Ok(()) // exit the process
 }
